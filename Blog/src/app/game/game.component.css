@@ -1,0 +1,28 @@
+.parent{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background: pink;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  width: 100%;
+  border: 2px solid black;
+  font-family: cursive;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

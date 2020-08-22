@@ -2,10 +2,9 @@ html {
   height: 100%;
 }
 body {
-	background-color: #3366CC;
-  /*background: 
+  background: 
     -webkit-linear-gradient(rgba(5, 610, 255, 0.4), rgba(135, 60, 255, 0.0) 80%),
-    -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 76%);*/
+    -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 76%);
 }
 .cf:before, .cf:after {
   content:" ";
@@ -26,6 +25,7 @@ body {
   width: fit-content;
 }
 .menu > li {
+  margin-right: 2px;
   background: #34495e;
   float: left;
   position: relative;
@@ -43,6 +43,7 @@ body {
   background: #e74c3c;
 }
 .menu > li > a {
+  margin-right: 20px;
   -webkit-transform: skewX(-25deg);
   padding: 1em 2em;
 }
